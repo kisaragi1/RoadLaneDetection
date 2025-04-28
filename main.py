@@ -38,7 +38,7 @@ def draw_lines(img, lines, color = [255,0,0], thickness = 3):
             cv.line(line_image, (x1,y1), (x2,y2), color=[255,0,0], thickness=3)
     return line_image
 
-#Processes detected Hough lines and separates them into left/right lanes
+#Processes detected Hough lines and separates them into left / right lanes
 def slope(image, lines):
     img = image.copy()
     poly_vertices = []
