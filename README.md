@@ -11,7 +11,7 @@ Key Features<br/>
   3.Configurable Hough line parameters<br/>
   4.Works with both images and videos<br/>
 
-Requirements
-Python 3.
-OpenCV
-Numpy
+Requirements<br/>
+Python 3.<br/>
+OpenCV<br/>
+Numpy<br/>
