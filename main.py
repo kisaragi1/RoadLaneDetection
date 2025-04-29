@@ -6,7 +6,6 @@ img = cv.imread('Images/lane2.jpg')
 vid = cv.VideoCapture('Videos/straight_lane.mp4')
 
 # Define trapezoidal ROI for lane focus
-height, width = img.shape[:2]
 roi = np.array([[
     (width * 0.1, height),  # Bottom left
     (width * 0.45, height * 0.6),  # Top left
