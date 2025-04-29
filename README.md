@@ -1,14 +1,17 @@
-Lane Line Detection
+#Lane Line Detection
 ---<br><br>
-Simple Python pipeline for detecting road lanes using:
-  Masking (Region of interest selection)
-  Canny edge detection
-  Hough transform line detection
+##Simple Python pipeline for detecting road lanes using: <br/>
+  1.Masking (Region of interest selection)<br/>
+  2.Canny edge detection<br/>
+  3.Hough transform line detection<br/>
 ---<br><br>
-Key Features
- Region masking to focus on relevant road area
-  Adjustable edge detection thresholds
-  Configurable Hough line parameters
-  Works with both images and videos
+##Key Features<br/>
+  1.Region masking to focus on relevant road area<br/>
+  2.Adjustable edge detection thresholds<br/>
+  3.Configurable Hough line parameters<br/>
+  4.Works with both images and videos<br/>
 
-Req
+Requirements
+Python 3.
+OpenCV
+Numpy
